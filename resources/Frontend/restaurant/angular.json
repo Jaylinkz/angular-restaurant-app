@@ -36,8 +36,8 @@
                   "with": "src/environments/environment.prod.ts"
                 }
               ],
-              "outputPath":"../../../public/assets/restaurant",
-              "deployUrl":"/assets/restaurant",
+              "outputPath":"../../../public/assets/restaurant/",
+              "deployUrl":"/assets/restaurant/",
               "optimization": true,
               "outputHashing": "all",
               "sourceMap": false,
