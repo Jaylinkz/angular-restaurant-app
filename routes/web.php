@@ -22,7 +22,8 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', [WelcomeController::class, 'index']);
-
+// Route::get('/{any}', [WelcomeController::class, 'angular'])->where('any','^(?!api).*$');
+Route::get('/angular', [WelcomeController::class, 'angular']);
 route::get('/accsess',[FrontendCategoryController::class,'index'])->name('categories.index');
 route::get('/categories{category}',[FrontendCategoryController::class,'show'])->name('categories.show');
 route::get('/menus',[FrontendMenuController::class,'index'])->name('menus.index');

@@ -16,4 +16,7 @@ public function thankyou()
 {
     return view('reservations.thankyou');
 }
+public function angular(){
+    return view('angular');
+}
 }
