@@ -3,6 +3,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { ReservationComponent } from './reservation/reservation.component';
 import { MenuComponent } from './menu/menu.component';
 import { HomeComponent } from './home/home.component';
+import {ScafoldComponent} from './shared/scafold/scafold.component';
 
 
 
@@ -15,6 +16,9 @@ const routes: Routes = [
   },
   {
     path:"home", component:HomeComponent
+  },
+  {
+    path:"scaffold", component:ScafoldComponent
   }
 ];
 
